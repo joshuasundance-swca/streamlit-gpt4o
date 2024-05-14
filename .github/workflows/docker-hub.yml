@@ -23,7 +23,6 @@ jobs:
     - name: Build Docker image
       run: |
         docker build \
-          --target runtime \
           -t joshuasundance/streamlit-gpt4o:${{ github.ref_name }} \
           -t joshuasundance/streamlit-gpt4o:latest \
           .
