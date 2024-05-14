@@ -14,3 +14,6 @@ push = true
 "bumpver.toml" = [
     'current_version = "{version}"',
 ]
+"streamlit-gpt4o/app.py" = [
+    '__version__ = "{version}"',
+]
