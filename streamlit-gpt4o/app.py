@@ -13,7 +13,7 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_openai import ChatOpenAI
 from st_multimodal_chatinput import multimodal_chatinput
 
-__version__ = "0.0.3"
+__version__ = "0.0.4"
 
 st.set_page_config(
     page_title=f"streamlit-gpt4o v{__version__}",
