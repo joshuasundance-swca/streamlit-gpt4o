@@ -1,0 +1,11 @@
+.env
+.env-example
+.git/
+.github
+.gitignore
+.idea
+.mypy_cache
+.pre-commit-config.yaml
+.ruff_cache
+Dockerfile
+docker-compose.yml

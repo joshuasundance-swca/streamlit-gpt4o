@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  streamlit-gpt4o:
+    build: .
+    ports:
+      - "${APP_PORT:-7860}:${APP_PORT:-7860}"
+    command: [
+      "streamlit", "run",
+      "/home/appuser/streamlit-gpt4o/app.py",
+      "--server.port", "${APP_PORT:-7860}",
+      "--server.address", "0.0.0.0"
+    ]
